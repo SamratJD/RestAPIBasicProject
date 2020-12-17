@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Employee API">
+	<test name="End-to-End">
+		<classes>
+			<class name="org.api.qa.testCases.TC001_GET_AllEmployees"/>
+			<class name="org.api.qa.testCases.TC002_GET_EmployeeByID"/>
+			<class name="org.api.qa.testCases.TC003_POST_CreateEmployee"/>
+			<class name="org.api.qa.testCases.TC004_PUT_UpdateEmployee"/>
+			<class name="org.api.qa.testCases.TC005_DEL_DeleteEmployee"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
